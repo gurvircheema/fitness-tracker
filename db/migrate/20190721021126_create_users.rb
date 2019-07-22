@@ -6,7 +6,6 @@ class CreateUsers < ActiveRecord::Migration[6.0]
       t.integer :age
       t.integer :height_cm
       t.integer :weight_lbs
-      t.string :email
       t.string :phone
       t.string :time_zone
 
