@@ -11,12 +11,7 @@
   </head>
 
   <body>
-    <%= render partial: 'layouts/navbar'%>
     <%= flash_message %>
-    <section class="section">
-      <div class="container">
-        <%= yield %>
-      </div>
-    </section>
+    <%= yield %>
   </body>
 </html>
