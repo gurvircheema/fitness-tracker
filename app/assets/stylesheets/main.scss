@@ -1,7 +1,20 @@
 @import 'bulma/bulma';
+@import 'actiontext';
 @import '_layout';
 
 $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
 @import "@fortawesome/fontawesome-free/scss/regular";
 @import "@fortawesome/fontawesome-free/scss/solid";
+
+$divider-thickness: .1rem;
+$divider-background-color: #ccc;
+
+.is-divider {
+  display: block;
+  position: relative;
+  border-top: $divider-thickness solid $divider-background-color;
+  height: $divider-thickness;
+  margin: 2rem 0;
+  text-align: center;
+}

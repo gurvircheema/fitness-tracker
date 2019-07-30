@@ -1,0 +1,13 @@
+<h1>Editing Exercise</h1>
+
+<%= render 'form', exercise: @exercise %>
+
+<div class='margin-10'></div>
+<div class='field is-grouped'>
+  <div class='control'>
+    <%= link_to 'Show', @exercise, class: 'button is-link' %>
+  </div>
+  <div class='control'>
+    <%= link_to 'Back', exercises_path, class: 'button' %>
+  </div>
+</div>
